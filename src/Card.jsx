@@ -30,7 +30,7 @@ function Card() {
   return (
     <div className='w-full h-screen flex justify-center items-center bg-blue-100'>
       <div className='w-80 sm:w-96 h-max flex flex-col justify-center items-center border rounded-lg shadow-xl bg-white'>
-        <div className='bg-blue-500 flex justify-center items-center w-full h-44 '>
+        <div className='bg-blue-500 flex justify-center items-center w-full h-44 rounded-lg'>
           <img className='h-40 w-36' src={girl} alt="" />
         </div>
         <div className='flex justify-center items-center flex-col p-4 gap-4'>

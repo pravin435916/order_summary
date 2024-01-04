@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import girl from './assets/Girl-Listening-Music.png';
 import { IoIosMusicalNotes } from "react-icons/io";
-import { ToastContainer, toast } from 'react-toastify';
+import {  toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 function Card() {
   const [showPopup, setShowPopup] = useState(false);
